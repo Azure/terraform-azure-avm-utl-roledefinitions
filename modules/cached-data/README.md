@@ -29,9 +29,9 @@ No optional inputs.
 
 The following outputs are exported:
 
-### <a name="output_locations_cached"></a> [locations\_cached](#output\_locations\_cached)
+### <a name="output_role_definitions_cached"></a> [role\_definitions\_cached](#output\_role\_definitions\_cached)
 
-Description: The cached list of locations from the API. Output is a list of location objects under the `value` key.
+Description: The cached list of role definitions from the API. Output is a list of role definition objects under the `value` key.
 
 ## Modules
 
