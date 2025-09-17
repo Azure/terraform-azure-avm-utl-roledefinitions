@@ -1,8 +1,16 @@
 {
   "image": "mcr.microsoft.com/azterraform:avm-latest",
+  "containerEnv": {
+    "AVM_IN_CONTAINER": "true"
+  },
   "updateRemoteUserUID": true,
-  "runArgs": [],
-  "mounts": [],
+  "runArgs": [
+    "--cap-add=SYS_PTRACE",
+    "--init"
+  ],
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
   "onCreateCommand": "terraform || true",
   "customizations": {
     "vscode": {
