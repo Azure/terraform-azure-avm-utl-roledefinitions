@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-module "regions" {
+module "role_definitions" {
   source = "../../"
 
   enable_telemetry = var.enable_telemetry
@@ -62,7 +62,7 @@ Description: n/a
 
 The following Modules are called:
 
-### <a name="module_regions"></a> [regions](#module\_regions)
+### <a name="module_role_definitions"></a> [role\_definitions](#module\_role\_definitions)
 
 Source: ../../
 
