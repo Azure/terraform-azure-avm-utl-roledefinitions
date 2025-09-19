@@ -2,6 +2,9 @@
 locals {
   live_role_definitions_map = var.use_cached_data ? {} : {
     for role_definition in data.azapi_resource_list.role_definitions[0].output.value :
-    role_definition.properties.roleName => role_definition.name
+    role_definition.properties.roleName => {
+      name = role_definition.name
+      id   = role_definition.id
+    }
   }
 }
