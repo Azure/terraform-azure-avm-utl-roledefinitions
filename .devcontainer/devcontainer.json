@@ -6,7 +6,10 @@
   "updateRemoteUserUID": true,
   "runArgs": [
     "--cap-add=SYS_PTRACE",
-    "--init"
+    "--security-opt",
+    "seccomp=unconfined",
+    "--init",
+    "--network=host"
   ],
   "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"

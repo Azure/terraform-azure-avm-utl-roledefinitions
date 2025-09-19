@@ -50,7 +50,9 @@ jobs:
       - name: update role definition data
         run: |
           cp ${{ env.ROLE_DEFINITONS_CACHE }} ${{ env.ROLE_DEFINITONS_CACHE }}.original
-          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01 | jq '{ "locals": { "role_definitions_cached": {"value": .value }}}' > ${{ env.ROLE_DEFINITONS_CACHE }}
+          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01 \
+            | jq '{ "locals": { "role_definitions_cached": {"value": ( .value | map(select(.properties.type == "BuiltInRole")) ) }}}' \
+            > ${{ env.ROLE_DEFINITONS_CACHE }}
         working-directory: ${{ github.workspace }}
 
       - name: deep compare role definition data

@@ -2,6 +2,9 @@
 locals {
   cached_role_definitions_map = {
     for role_definition in module.cached_data.role_definitions_cached.value :
-    role_definition.properties.roleName => role_definition.name
+    role_definition.properties.roleName => {
+      name = role_definition.name
+      id   = "${local.role_definition_output_scope_prefix}/providers/Microsoft.Authorization/roleDefinitions/${role_definition.name}"
+    }
   }
 }
