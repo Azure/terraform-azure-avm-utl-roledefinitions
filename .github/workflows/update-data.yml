@@ -59,16 +59,18 @@ jobs:
         run: |
           if [ ! -f ${{ env.ROLE_DEFINITIONS_CACHE }}.original ]; then
             echo "No original file to compare against"
+            echo changed=0 >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          if ! jd -set ${{ env.ROLE_DEFINITIONS_CACHE }}.original ${{ env.ROLE_DEFINITIONS_CACHE }}; then
-            echo "${{ env.ROLE_DEFINITIONS_CACHE }} has changed"
-            git add ${{ env.ROLE_DEFINITIONS_CACHE }}
+          if jd -set ${{ env.ROLE_DEFINITIONS_CACHE }}.original ${{ env.ROLE_DEFINITIONS_CACHE }}; then
+            echo "${{ env.ROLE_DEFINITIONS_CACHE }} has not changed"
+            echo changed=0 >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          echo "${{ env.ROLE_DEFINITIONS_CACHE }} has changed"
+          git add ${{ env.ROLE_DEFINITIONS_CACHE }}
+          echo changed=1 >> "$GITHUB_OUTPUT"
           rm -f ${{ env.ROLE_DEFINITIONS_CACHE }}.original
-          if [[ -n $(git status -suno) ]]; then
-            echo changed=1 >> "$GITHUB_OUTPUT"
-          fi
         working-directory: ${{ github.workspace }}
 
       - name: stage updated cache
