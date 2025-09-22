@@ -53,7 +53,7 @@ Default: `true`
 
 The following outputs are exported:
 
-### <a name="output_regions"></a> [regions](#output\_regions)
+### <a name="output_role_definitions"></a> [role\_definitions](#output\_role\_definitions)
 
 Description: n/a
 
