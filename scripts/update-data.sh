@@ -57,7 +57,7 @@ TMP_FILE="${ROLE_DEFINITIONS_CACHE}.tmp"
 echo "[info] Fetching role definitions from Azure..."
 az rest --method GET \
   --uri "/subscriptions/${ARM_SUBSCRIPTION_ID}/providers/Microsoft.Authorization/roleDefinitions?api-version=${AZ_API_VERSION}" \
-  | jq '{ "locals": { "role_definitions_cached": {"value": ( .value | map(select(.properties.type == "BuiltInRole") | { name: .name, roleName: .properties.roleName }) ) }}}' \
+  | jq '{ "locals": { "role_definitions_cached": {"value": ( .value | map(select(.properties.type == "BuiltInRole") | { name: .name, roleName: .properties.roleName }) ) | sort_by(.roleName) }}}' \
   > "$TMP_FILE"
 
 # Replace target file
