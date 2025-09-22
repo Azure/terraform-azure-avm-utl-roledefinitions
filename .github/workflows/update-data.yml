@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 env:
-  ROLE_DEFINITONS_CACHE: ./modules/cached-data/role_definitions.tf.json
+  ROLE_DEFINITIONS_CACHE: ./modules/cached-data/role_definitions.tf.json
 
 jobs:
   update:
@@ -27,7 +27,7 @@ jobs:
 
       - name: install jd
         run: |
-          go install github.com/josephburnett/jd@v1.7.1
+          go install github.com/josephburnett/jd/v2/jd@v2.3.0
 
       - uses: azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5 # v2.3.0
         with:
@@ -46,26 +46,39 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git checkout -b update${{ github.run_id }}
-      - name: update role definition data
+
+      - name: update role definition data (script)
+        env:
+          AZ_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          ROLE_DEFINITIONS_CACHE: ${{ env.ROLE_DEFINITIONS_CACHE }}
         run: |
-          cp ${{ env.ROLE_DEFINITONS_CACHE }} ${{ env.ROLE_DEFINITONS_CACHE }}.original
-          az rest --method GET --uri /subscriptions/${{ vars.AZURE_SUBSCRIPTION_ID }}/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01 \
-            | jq '{ "locals": { "role_definitions_cached": {"value": ( .value | map(select(.properties.type == "BuiltInRole")) ) }}}' \
-            > ${{ env.ROLE_DEFINITONS_CACHE }}
-        working-directory: ${{ github.workspace }}
+          ./scripts/update-data.sh
 
       - name: deep compare role definition data
+        id: compare
         run: |
-          if ! jd -set ${{ env.ROLE_DEFINITONS_CACHE }}.original ${{ env.ROLE_DEFINITONS_CACHE }}; then
-            echo "${{ env.ROLE_DEFINITONS_CACHE }} has changed"
-            git add ${{ env.ROLE_DEFINITONS_CACHE }}
-            echo UPDATED=1 >> "$GITHUB_ENV"
+          if [ ! -f ${{ env.ROLE_DEFINITIONS_CACHE }}.original ]; then
+            echo "No original file to compare against"
+            exit 0
+          fi
+          if ! jd -set ${{ env.ROLE_DEFINITIONS_CACHE }}.original ${{ env.ROLE_DEFINITIONS_CACHE }}; then
+            echo "${{ env.ROLE_DEFINITIONS_CACHE }} has changed"
+            git add ${{ env.ROLE_DEFINITIONS_CACHE }}
+          fi
+          rm -f ${{ env.ROLE_DEFINITIONS_CACHE }}.original
+          if [[ -n $(git status -suno) ]]; then
+            echo changed=1 >> "$GITHUB_OUTPUT"
           fi
         working-directory: ${{ github.workspace }}
 
+      - name: stage updated cache
+        if: steps.compare.outputs.changed == '1'
+        run: |
+          git add ${{ env.ROLE_DEFINITIONS_CACHE }} || true
+
       - name: run pre-commit
         id: precommit
-        if: env.UPDATED == '1'
+        if: steps.compare.outputs.changed == '1'
         run: |
           ./avm pre-commit
           if [[ -n $(git status -suno) ]]; then
@@ -73,9 +86,10 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+
       - name: commit changes & create PR
         id: pr
-        if: env.UPDATED == '1'
+        if: steps.compare.outputs.changed == '1'
         run: |
           if [[ -n $(git status -suno) ]]; then
             git commit -m "feat: update data from Azure"
@@ -87,7 +101,7 @@ jobs:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: close and comment out of date prs
-        if: env.UPDATED == '1'
+        if: steps.compare.outputs.changed == '1'
         run: |
           PULL_REQUESTS=$(gh pr list --search "feat: update data from Azure" --json number,headRefName)
           echo "$PULL_REQUESTS" | jq -r '.[] | select(.number != ${{ steps.pr.outputs.pull-request-number }}) | .number' | xargs -I {} gh pr close {} --delete-branch --comment "Supersceeded by #${{ steps.pr.outputs.pull-request-number }}"
