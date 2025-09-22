@@ -1743,6 +1743,10 @@
           "roleName": "Enclave Reader Role"
         },
         {
+          "name": "34013b0a-565b-43aa-8755-1b7c286f6cf7",
+          "roleName": "Essential Machine Management Administrator"
+        },
+        {
           "name": "1e241071-0855-49ea-94dc-649edcd759de",
           "roleName": "EventGrid Contributor"
         },
