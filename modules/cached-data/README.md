@@ -31,7 +31,7 @@ The following outputs are exported:
 
 ### <a name="output_role_definitions_cached"></a> [role\_definitions\_cached](#output\_role\_definitions\_cached)
 
-Description: The cached list of role definitions from the API. Output is a list of role definition objects under the `value` key.
+Description: The cached list of built-in role definitions from the API. Output is an object with key `value` containing a list of minimal role objects: { name, roleName }.
 
 ## Modules
 
