@@ -919,6 +919,10 @@
           "roleName": "Azure VM Managed identities restore Contributor"
         },
         {
+          "name": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
+          "roleName": "Azure impact Reporter role"
+        },
+        {
           "name": "dfb2f09d-25f8-4558-8986-497084006d7a",
           "roleName": "Azure impact-insight reader"
         },
@@ -1859,6 +1863,14 @@
           "roleName": "Garnet Data Reader"
         },
         {
+          "name": "56e95fdc-3337-468d-b964-30d07f2a2018",
+          "roleName": "Garnet PubSub Data Contributor"
+        },
+        {
+          "name": "da9adf61-39cd-41d5-87a0-30b21f7270d8",
+          "roleName": "Garnet PubSub Data Reader"
+        },
+        {
           "name": "7021ea36-e168-4bc0-af53-88de51d20665",
           "roleName": "Garnet Script Data Contributor"
         },
@@ -1977,10 +1989,6 @@
         {
           "name": "68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e",
           "roleName": "Impact Reader"
-        },
-        {
-          "name": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
-          "roleName": "Impact Reporter"
         },
         {
           "name": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
@@ -2867,6 +2875,10 @@
           "roleName": "Storage File Data Privileged Reader"
         },
         {
+          "name": "bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b",
+          "roleName": "Storage File Data SMB Admin"
+        },
+        {
           "name": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
           "roleName": "Storage File Data SMB MI Admin"
         },
@@ -2949,6 +2961,10 @@
         {
           "name": "392ae280-861d-42bd-9ea5-08ee6d83b80e",
           "roleName": "Template Spec Reader"
+        },
+        {
+          "name": "0a7c2fa1-6f28-41a4-86b8-e74937c63222",
+          "roleName": "Tenant Contributor"
         },
         {
           "name": "15e0f5a1-3450-4248-8e25-e2afe88a9e85",
