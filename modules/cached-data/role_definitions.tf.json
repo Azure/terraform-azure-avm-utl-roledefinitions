@@ -783,6 +783,22 @@
           "roleName": "Azure Resilience Management Drills Reader"
         },
         {
+          "name": "481d9636-d9f0-468b-b93d-6056318e6f36",
+          "roleName": "Azure Resilience Management Recovery Administrator"
+        },
+        {
+          "name": "4c7fd853-7345-4453-babd-e9481e9b460b",
+          "roleName": "Azure Resilience Management Recovery Contributor"
+        },
+        {
+          "name": "517781b0-5ad4-4418-94d5-f2421834b586",
+          "roleName": "Azure Resilience Management Recovery Operator"
+        },
+        {
+          "name": "8210e6a3-4e4c-4e1a-bd83-ef8bac788a45",
+          "roleName": "Azure Resilience Management Recovery Reader"
+        },
+        {
           "name": "7b1f81f9-4196-4058-8aae-762e593270df",
           "roleName": "Azure Resource Bridge Deployment Role"
         },
@@ -917,6 +933,10 @@
         {
           "name": "6ae96244-5829-4925-a7d3-5975537d91dd",
           "roleName": "Azure VM Managed identities restore Contributor"
+        },
+        {
+          "name": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
+          "roleName": "Azure impact Reporter role"
         },
         {
           "name": "dfb2f09d-25f8-4558-8986-497084006d7a",
@@ -1859,6 +1879,14 @@
           "roleName": "Garnet Data Reader"
         },
         {
+          "name": "56e95fdc-3337-468d-b964-30d07f2a2018",
+          "roleName": "Garnet PubSub Data Contributor"
+        },
+        {
+          "name": "da9adf61-39cd-41d5-87a0-30b21f7270d8",
+          "roleName": "Garnet PubSub Data Reader"
+        },
+        {
           "name": "7021ea36-e168-4bc0-af53-88de51d20665",
           "roleName": "Garnet Script Data Contributor"
         },
@@ -1939,6 +1967,10 @@
           "roleName": "Healthcare Agent Admin"
         },
         {
+          "name": "13d06eae-ec82-4345-bcd6-c38625ddffbc",
+          "roleName": "Healthcare Agent Contributer"
+        },
+        {
           "name": "af854a69-80ce-4ff7-8447-f1118a2e0ca8",
           "roleName": "Healthcare Agent Editor"
         },
@@ -1977,10 +2009,6 @@
         {
           "name": "68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e",
           "roleName": "Impact Reader"
-        },
-        {
-          "name": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
-          "roleName": "Impact Reporter"
         },
         {
           "name": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
@@ -2867,6 +2895,10 @@
           "roleName": "Storage File Data Privileged Reader"
         },
         {
+          "name": "bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b",
+          "roleName": "Storage File Data SMB Admin"
+        },
+        {
           "name": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
           "roleName": "Storage File Data SMB MI Admin"
         },
@@ -2931,6 +2963,10 @@
           "roleName": "Stream Analytics Reader"
         },
         {
+          "name": "68899692-f960-4247-af28-82f55b357997",
+          "roleName": "Supercomputer Infrastructure Contributor"
+        },
+        {
           "name": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
           "roleName": "Support Request Contributor"
         },
@@ -2949,6 +2985,10 @@
         {
           "name": "392ae280-861d-42bd-9ea5-08ee6d83b80e",
           "roleName": "Template Spec Reader"
+        },
+        {
+          "name": "0a7c2fa1-6f28-41a4-86b8-e74937c63222",
+          "roleName": "Tenant Contributor"
         },
         {
           "name": "15e0f5a1-3450-4248-8e25-e2afe88a9e85",
