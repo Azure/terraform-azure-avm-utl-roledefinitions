@@ -9,13 +9,55 @@ terraform {
   required_version = "~> 1.6"
 
   required_providers {
+    azapi = {
+      source  = "azure/azapi"
+      version = "~> 2.6"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.6"
+    }
   }
 }
+
+data "azapi_client_config" "current" {}
+
+resource "random_pet" "suffix" {
+  length    = 2
+  separator = "-"
+}
+
+resource "random_uuid" "role_assignment_name" {}
 
 module "role_definitions" {
   source = "../../"
 
-  enable_telemetry = var.enable_telemetry
+  enable_telemetry      = var.enable_telemetry
+  role_definition_scope = azapi_resource.resource_group.id
+}
+
+resource "azapi_resource" "resource_group" {
+  location  = "swedencentral"
+  name      = "rg-${random_pet.suffix.id}"
+  parent_id = data.azapi_client_config.current.subscription_resource_id
+  type      = "Microsoft.Resources/resourceGroups@2021-04-01"
+}
+
+resource "azapi_resource" "example_role_assignment" {
+  name      = random_uuid.role_assignment_name.result
+  parent_id = azapi_resource.resource_group.id
+  type      = "Microsoft.Authorization/roleAssignments@2022-04-01"
+  body = {
+    properties = {
+      roleDefinitionId = module.role_definitions.role_definition_rolename_to_resource_id["Storage Blob Data Contributor"]
+      principalId      = data.azapi_client_config.current.object_id
+      principalType    = null
+    }
+  }
+  # required to ignore the service setting principalType and resulting
+  # in perpetual diffs.
+  ignore_null_property   = true
+  response_export_values = []
 }
 ```
 
@@ -26,9 +68,19 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (~> 1.6)
 
+- <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (~> 2.6)
+
+- <a name="requirement_random"></a> [random](#requirement\_random) (~> 3.6)
+
 ## Resources
 
-No resources.
+The following resources are used by this module:
+
+- [azapi_resource.example_role_assignment](https://registry.terraform.io/providers/azure/azapi/latest/docs/resources/resource) (resource)
+- [azapi_resource.resource_group](https://registry.terraform.io/providers/azure/azapi/latest/docs/resources/resource) (resource)
+- [random_pet.suffix](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) (resource)
+- [random_uuid.role_assignment_name](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/uuid) (resource)
+- [azapi_client_config.current](https://registry.terraform.io/providers/azure/azapi/latest/docs/data-sources/client_config) (data source)
 
 <!-- markdownlint-disable MD013 -->
 ## Required Inputs
@@ -53,9 +105,9 @@ Default: `true`
 
 The following outputs are exported:
 
-### <a name="output_role_definitions"></a> [role\_definitions](#output\_role\_definitions)
+### <a name="output_role_definition_id"></a> [role\_definition\_id](#output\_role\_definition\_id)
 
-Description: n/a
+Description: The ID of the role definition.
 
 ## Modules
 
