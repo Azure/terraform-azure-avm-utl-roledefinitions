@@ -47,6 +47,10 @@
           "roleName": "API Management Workspace Reader"
         },
         {
+          "name": "dc0882cc-bc27-4d21-9ea2-f821aaa10fb1",
+          "roleName": "ARN Service Event Grid Subscriber Role"
+        },
+        {
           "name": "d715fb95-a0f0-4f1c-8be6-5ad2d2767f67",
           "roleName": "AVS Orchestrator Role"
         },
@@ -1267,6 +1271,10 @@
           "roleName": "Cognitive Services QnA Maker Reader"
         },
         {
+          "name": "14f26b53-9d80-4924-8141-f664426a48f6",
+          "roleName": "Cognitive Services Security Integration Admin"
+        },
+        {
           "name": "0e75ca1e-0464-4b4d-8b93-68208a576181",
           "roleName": "Cognitive Services Speech Contributor"
         },
@@ -1561,6 +1569,10 @@
         {
           "name": "96ebd254-ecc7-4590-aff5-e9af3ff5f3b3",
           "roleName": "Dedicated Host Contributor Role"
+        },
+        {
+          "name": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
+          "roleName": "Defender CSPM"
         },
         {
           "name": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
@@ -1965,6 +1977,10 @@
         {
           "name": "7021ea36-e168-4bc0-af53-88de51d20665",
           "roleName": "Garnet Script Data Contributor"
+        },
+        {
+          "name": "a51d5f27-deba-47d1-9ccd-8589014b2e28",
+          "roleName": "Gcp Connector contributor role"
         },
         {
           "name": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
@@ -2999,6 +3015,14 @@
           "roleName": "Storage Blob Delegator"
         },
         {
+          "name": "9d819e60-1b9f-4871-b492-4e6cdee0b50a",
+          "roleName": "Storage Connector Contributor"
+        },
+        {
+          "name": "35c49d44-ccc1-4b18-8267-cfb3bacdd396",
+          "roleName": "Storage DataShare Contributor"
+        },
+        {
           "name": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
           "roleName": "Storage File Data Privileged Contributor"
         },
@@ -3025,6 +3049,10 @@
         {
           "name": "aba4ae5f-2193-4029-9191-0cb91df5e314",
           "roleName": "Storage File Data SMB Share Reader"
+        },
+        {
+          "name": "5d9bac3f-34b2-432f-bde5-78aa8e73ce6b",
+          "roleName": "Storage File Data SMB Take Ownership"
         },
         {
           "name": "765a04e0-5de8-4bb2-9bf6-b2a30bc03e91",
