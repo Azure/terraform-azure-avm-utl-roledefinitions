@@ -1639,6 +1639,10 @@
           "roleName": "Defender Unified RBAC Responder"
         },
         {
+          "name": "d56b031f-8d90-4376-9231-b5c94fce88ef",
+          "roleName": "Defender Unified RBAC Scoped Reader"
+        },
+        {
           "name": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
           "roleName": "Defender for Storage Data Scanner"
         },
