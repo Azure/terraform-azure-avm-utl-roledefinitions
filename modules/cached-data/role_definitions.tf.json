@@ -167,6 +167,10 @@
           "roleName": "Application Insights Snapshot Debugger"
         },
         {
+          "name": "ee99642a-225b-4fe8-a771-9d9036053e87",
+          "roleName": "Arc Container Storage Contributor"
+        },
+        {
           "name": "f6e92014-8af2-414d-9948-9b1abf559285",
           "roleName": "Arc Gateway Manager"
         },
@@ -453,6 +457,10 @@
         {
           "name": "adb29209-aa1d-457b-a786-c913953d2891",
           "roleName": "Azure Deployment Stack Owner"
+        },
+        {
+          "name": "a954a0e0-f57f-4606-8421-fd7bd4e54b0f",
+          "roleName": "Azure Device Onboarding Contributor"
         },
         {
           "name": "a227fb39-f479-404b-96fd-0176f5d88ab4",
@@ -1337,6 +1345,10 @@
         {
           "name": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
           "roleName": "Compute Gallery Sharing Admin"
+        },
+        {
+          "name": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
+          "roleName": "Compute Limit Operator"
         },
         {
           "name": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
@@ -2497,6 +2509,10 @@
         {
           "name": "5d5dddae-e124-4753-972d-aae60b37deb4",
           "roleName": "Migrate Arc Discovery Reader - Preview"
+        },
+        {
+          "name": "045b6ee5-0c68-42c4-9be0-7389794309f5",
+          "roleName": "MongoDB Atlas Contributor"
         },
         {
           "name": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
