@@ -167,6 +167,10 @@
           "roleName": "Application Insights Snapshot Debugger"
         },
         {
+          "name": "ee99642a-225b-4fe8-a771-9d9036053e87",
+          "roleName": "Arc Container Storage Contributor"
+        },
+        {
           "name": "f6e92014-8af2-414d-9948-9b1abf559285",
           "roleName": "Arc Gateway Manager"
         },
@@ -249,6 +253,10 @@
         {
           "name": "3afb7f49-54cb-416e-8c09-6dc049efa503",
           "roleName": "Azure AI Inference Deployment Operator"
+        },
+        {
+          "name": "c883944f-8b7b-4483-af10-35834be79c4a",
+          "roleName": "Azure AI Owner"
         },
         {
           "name": "eadc314b-1a2d-4efa-be10-5d325db5065e",
@@ -453,6 +461,10 @@
         {
           "name": "adb29209-aa1d-457b-a786-c913953d2891",
           "roleName": "Azure Deployment Stack Owner"
+        },
+        {
+          "name": "a954a0e0-f57f-4606-8421-fd7bd4e54b0f",
+          "roleName": "Azure Device Onboarding Contributor"
         },
         {
           "name": "a227fb39-f479-404b-96fd-0176f5d88ab4",
@@ -773,6 +785,10 @@
         {
           "name": "0d7aedc0-15fd-4a67-a412-efad370c947e",
           "roleName": "Azure Red Hat OpenShift File Storage Operator"
+        },
+        {
+          "name": "42f3c60f-e7b1-46d7-ba56-6de681664342",
+          "roleName": "Azure Red Hat OpenShift First Party Network"
         },
         {
           "name": "88366f10-ed47-4cc0-9fab-c8a06148393e",
@@ -1339,6 +1355,10 @@
           "roleName": "Compute Gallery Sharing Admin"
         },
         {
+          "name": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
+          "roleName": "Compute Limit Operator"
+        },
+        {
           "name": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
           "roleName": "Compute Recommendations Role"
         },
@@ -1841,6 +1861,10 @@
         {
           "name": "1c4770c0-34f7-4110-a1ea-a5855cc7a939",
           "roleName": "Elastic SAN Snapshot Exporter"
+        },
+        {
+          "name": "8da79822-b118-42bc-83c9-789fdbdcd77b",
+          "roleName": "Elastic SAN Volume Data Contributor"
         },
         {
           "name": "a8281131-f312-4f34-8d98-ae12be9f0d23",
@@ -2497,6 +2521,10 @@
         {
           "name": "5d5dddae-e124-4753-972d-aae60b37deb4",
           "roleName": "Migrate Arc Discovery Reader - Preview"
+        },
+        {
+          "name": "045b6ee5-0c68-42c4-9be0-7389794309f5",
+          "roleName": "MongoDB Atlas Contributor"
         },
         {
           "name": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
