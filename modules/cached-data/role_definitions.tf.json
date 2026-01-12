@@ -167,12 +167,28 @@
           "roleName": "Application Insights Snapshot Debugger"
         },
         {
+          "name": "ee99642a-225b-4fe8-a771-9d9036053e87",
+          "roleName": "Arc Container Storage Contributor"
+        },
+        {
           "name": "f6e92014-8af2-414d-9948-9b1abf559285",
           "roleName": "Arc Gateway Manager"
         },
         {
           "name": "dca88c6f-5090-44cd-a0ff-a88f337b12a5",
           "roleName": "ArizeAi.ObservabilityEval Contributor Role"
+        },
+        {
+          "name": "2837e146-70d7-4cfd-ad55-7efa6464f958",
+          "roleName": "Artifact Signing Certificate Profile Signer"
+        },
+        {
+          "name": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
+          "roleName": "Artifact Signing Identity Verifier"
+        },
+        {
+          "name": "a6a9a135-9048-45df-b559-a90bb025e92f",
+          "roleName": "Astronomer Astro Contributor"
         },
         {
           "name": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
@@ -249,6 +265,10 @@
         {
           "name": "3afb7f49-54cb-416e-8c09-6dc049efa503",
           "roleName": "Azure AI Inference Deployment Operator"
+        },
+        {
+          "name": "c883944f-8b7b-4483-af10-35834be79c4a",
+          "roleName": "Azure AI Owner"
         },
         {
           "name": "eadc314b-1a2d-4efa-be10-5d325db5065e",
@@ -419,10 +439,6 @@
           "roleName": "Azure Container Instances Contributor Role"
         },
         {
-          "name": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
-          "roleName": "Azure Container Registry secure supply chain operator service role"
-        },
-        {
           "name": "95dd08a6-00bd-4661-84bf-f6726f83a4d0",
           "roleName": "Azure Container Storage Contributor"
         },
@@ -453,6 +469,10 @@
         {
           "name": "adb29209-aa1d-457b-a786-c913953d2891",
           "roleName": "Azure Deployment Stack Owner"
+        },
+        {
+          "name": "a954a0e0-f57f-4606-8421-fd7bd4e54b0f",
+          "roleName": "Azure Device Onboarding Contributor"
         },
         {
           "name": "a227fb39-f479-404b-96fd-0176f5d88ab4",
@@ -773,6 +793,10 @@
         {
           "name": "0d7aedc0-15fd-4a67-a412-efad370c947e",
           "roleName": "Azure Red Hat OpenShift File Storage Operator"
+        },
+        {
+          "name": "42f3c60f-e7b1-46d7-ba56-6de681664342",
+          "roleName": "Azure Red Hat OpenShift First Party Network"
         },
         {
           "name": "88366f10-ed47-4cc0-9fab-c8a06148393e",
@@ -1339,6 +1363,10 @@
           "roleName": "Compute Gallery Sharing Admin"
         },
         {
+          "name": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
+          "roleName": "Compute Limit Operator"
+        },
+        {
           "name": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
           "roleName": "Compute Recommendations Role"
         },
@@ -1591,6 +1619,14 @@
           "roleName": "Defender Cloud Secrets Posture"
         },
         {
+          "name": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
+          "roleName": "Defender Containers Sensor"
+        },
+        {
+          "name": "0e2ecf2a-0574-4b08-89e2-be133aa6303f",
+          "roleName": "Defender Databricks Operator"
+        },
+        {
           "name": "c5c82243-e78e-43f9-8428-793bba85b28e",
           "roleName": "Defender For Container Registries Operator"
         },
@@ -1601,6 +1637,10 @@
         {
           "name": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
           "roleName": "Defender Kubernetes Agent Operator"
+        },
+        {
+          "name": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
+          "roleName": "Defender Registry Access"
         },
         {
           "name": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
@@ -1841,6 +1881,10 @@
         {
           "name": "1c4770c0-34f7-4110-a1ea-a5855cc7a939",
           "roleName": "Elastic SAN Snapshot Exporter"
+        },
+        {
+          "name": "8da79822-b118-42bc-83c9-789fdbdcd77b",
+          "roleName": "Elastic SAN Volume Data Contributor"
         },
         {
           "name": "a8281131-f312-4f34-8d98-ae12be9f0d23",
@@ -2215,10 +2259,6 @@
           "roleName": "Knowledge Consumer"
         },
         {
-          "name": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
-          "roleName": "Kubernetes Agent Operator"
-        },
-        {
           "name": "ada52afe-776a-4b4d-a8f2-55670d3d8178",
           "roleName": "Kubernetes Agent Subscription Level Operator"
         },
@@ -2419,6 +2459,18 @@
           "roleName": "Management Group Reader"
         },
         {
+          "name": "0343f3e8-01ac-4bb8-8f93-78b1d31ba64b",
+          "roleName": "Microsoft Approvals Request User"
+        },
+        {
+          "name": "98d40527-c073-4096-943a-dd593105ca9c",
+          "roleName": "Microsoft Approvals Service Operator"
+        },
+        {
+          "name": "92318126-08be-45d0-a1b2-532e6c7d52ce",
+          "roleName": "Microsoft Approvals Workflow Contributor"
+        },
+        {
           "name": "5052f0f9-7e27-4570-bc13-9ee1cf442526",
           "roleName": "Microsoft Confluent Contributor role"
         },
@@ -2497,6 +2549,10 @@
         {
           "name": "5d5dddae-e124-4753-972d-aae60b37deb4",
           "roleName": "Migrate Arc Discovery Reader - Preview"
+        },
+        {
+          "name": "045b6ee5-0c68-42c4-9be0-7389794309f5",
+          "roleName": "MongoDB Atlas Contributor"
         },
         {
           "name": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
@@ -3177,14 +3233,6 @@
         {
           "name": "8ad4d0ee-9bfb-49e8-93fc-01abb8db6240",
           "roleName": "Transparency Logs Owner"
-        },
-        {
-          "name": "2837e146-70d7-4cfd-ad55-7efa6464f958",
-          "roleName": "Trusted Signing Certificate Profile Signer"
-        },
-        {
-          "name": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
-          "roleName": "Trusted Signing Identity Verifier"
         },
         {
           "name": "33cdeeac-0940-4f85-9317-7e2432c17289",
