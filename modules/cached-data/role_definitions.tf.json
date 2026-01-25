@@ -1023,6 +1023,14 @@
           "roleName": "Azure Stack HCI VM Reader"
         },
         {
+          "name": "17e4de9d-139f-4531-b521-20804c310cf8",
+          "roleName": "Azure Stack Hub Linked Subscriptions role"
+        },
+        {
+          "name": "9a0e5da3-6c70-4a35-b13a-715cd5a7919a",
+          "roleName": "Azure Stack Hub registration role"
+        },
+        {
           "name": "6f12a6df-dd06-4f3e-bcb1-ce8be600526a",
           "roleName": "Azure Stack Registration Owner"
         },
@@ -1865,6 +1873,10 @@
         {
           "name": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
           "roleName": "Edge Order Partner Inventory Manager Service Role"
+        },
+        {
+          "name": "4b2b8358-764b-4884-85c6-f4b7946d95ad",
+          "roleName": "EdgeMarketPlace role"
         },
         {
           "name": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
