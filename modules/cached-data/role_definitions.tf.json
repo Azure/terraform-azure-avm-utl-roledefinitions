@@ -1023,6 +1023,14 @@
           "roleName": "Azure Stack HCI VM Reader"
         },
         {
+          "name": "17e4de9d-139f-4531-b521-20804c310cf8",
+          "roleName": "Azure Stack Hub Linked Subscriptions role"
+        },
+        {
+          "name": "9a0e5da3-6c70-4a35-b13a-715cd5a7919a",
+          "roleName": "Azure Stack Hub registration role"
+        },
+        {
           "name": "6f12a6df-dd06-4f3e-bcb1-ce8be600526a",
           "roleName": "Azure Stack Registration Owner"
         },
@@ -1607,6 +1615,10 @@
           "roleName": "Defender Agentless VM Scan"
         },
         {
+          "name": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
+          "roleName": "Defender Azure Cosmos DB"
+        },
+        {
           "name": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
           "roleName": "Defender CSPM"
         },
@@ -1639,8 +1651,16 @@
           "roleName": "Defender Kubernetes Agent Operator"
         },
         {
+          "name": "99626c15-0799-47ad-96ab-f298031f69d6",
+          "roleName": "Defender Open Source Relational Databases"
+        },
+        {
           "name": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
           "roleName": "Defender Registry Access"
+        },
+        {
+          "name": "d9468a2b-1820-47e1-a40e-d2b7fba1879a",
+          "roleName": "Defender SQL Servers On Machines"
         },
         {
           "name": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
@@ -1865,6 +1885,10 @@
         {
           "name": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
           "roleName": "Edge Order Partner Inventory Manager Service Role"
+        },
+        {
+          "name": "4b2b8358-764b-4884-85c6-f4b7946d95ad",
+          "roleName": "EdgeMarketPlace role"
         },
         {
           "name": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
