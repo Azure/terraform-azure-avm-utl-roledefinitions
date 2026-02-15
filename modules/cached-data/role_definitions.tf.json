@@ -567,6 +567,22 @@
           "roleName": "Azure IoT Operations Onboarding"
         },
         {
+          "name": "20cf746c-c765-402a-885e-c389c64478ce",
+          "roleName": "Azure Kubernetes Fleet Manager ABAC Custom Resources Reader"
+        },
+        {
+          "name": "e1663658-d5f7-4383-9afb-af9fdc9c5eae",
+          "roleName": "Azure Kubernetes Fleet Manager ABAC Custom Resources Reader for Member Clusters"
+        },
+        {
+          "name": "ff8eb232-5069-437e-94e5-31112ef30539",
+          "roleName": "Azure Kubernetes Fleet Manager ABAC Custom Resources Writer"
+        },
+        {
+          "name": "673366d4-9664-4020-b03b-b0093366bff9",
+          "roleName": "Azure Kubernetes Fleet Manager ABAC Custom Resources Writer for Member Clusters"
+        },
+        {
           "name": "63bb64ad-9799-4770-b5c3-24ed299a07bf",
           "roleName": "Azure Kubernetes Fleet Manager Contributor Role"
         },
@@ -1021,6 +1037,14 @@
         {
           "name": "4b3fe76c-f777-4d24-a2d7-b027b0f7b273",
           "roleName": "Azure Stack HCI VM Reader"
+        },
+        {
+          "name": "17e4de9d-139f-4531-b521-20804c310cf8",
+          "roleName": "Azure Stack Hub Linked Subscriptions role"
+        },
+        {
+          "name": "9a0e5da3-6c70-4a35-b13a-715cd5a7919a",
+          "roleName": "Azure Stack Hub registration role"
         },
         {
           "name": "6f12a6df-dd06-4f3e-bcb1-ce8be600526a",
@@ -1607,6 +1631,10 @@
           "roleName": "Defender Agentless VM Scan"
         },
         {
+          "name": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
+          "roleName": "Defender Azure Cosmos DB"
+        },
+        {
           "name": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
           "roleName": "Defender CSPM"
         },
@@ -1639,8 +1667,16 @@
           "roleName": "Defender Kubernetes Agent Operator"
         },
         {
+          "name": "99626c15-0799-47ad-96ab-f298031f69d6",
+          "roleName": "Defender Open Source Relational Databases"
+        },
+        {
           "name": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
           "roleName": "Defender Registry Access"
+        },
+        {
+          "name": "d9468a2b-1820-47e1-a40e-d2b7fba1879a",
+          "roleName": "Defender SQL Servers On Machines"
         },
         {
           "name": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
@@ -1689,6 +1725,10 @@
         {
           "name": "0f641de8-0b88-4198-bdef-bd8b45ceba96",
           "roleName": "Defender for Storage Scanner Operator"
+        },
+        {
+          "name": "a366d631-94bf-46bf-b4af-b38f28c80774",
+          "roleName": "Defender for Storage Threat Protection"
         },
         {
           "name": "eb960402-bf75-4cc3-8d68-35b34f960f72",
@@ -1799,6 +1839,10 @@
           "roleName": "Device Update Content Reader"
         },
         {
+          "name": "f82fbe13-0f98-4809-af81-b82c343db82f",
+          "roleName": "Device Update Contributor"
+        },
+        {
           "name": "e4237640-0e3d-4a46-8fda-70bc94856432",
           "roleName": "Device Update Deployments Administrator"
         },
@@ -1865,6 +1909,10 @@
         {
           "name": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
           "roleName": "Edge Order Partner Inventory Manager Service Role"
+        },
+        {
+          "name": "4b2b8358-764b-4884-85c6-f4b7946d95ad",
+          "roleName": "EdgeMarketPlace role"
         },
         {
           "name": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
