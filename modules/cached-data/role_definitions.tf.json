@@ -511,6 +511,10 @@
           "roleName": "Azure Edge On-Site Deployment Engineer"
         },
         {
+          "name": "78739afa-3ece-4d6b-90ba-762fdccd7438",
+          "roleName": "Azure Edge On-Site Deployment Manager"
+        },
+        {
           "name": "f526a384-b230-433a-b45c-95f59c4a2dec",
           "roleName": "Azure Event Hubs Data Owner"
         },
