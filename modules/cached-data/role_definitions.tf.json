@@ -479,6 +479,10 @@
           "roleName": "Azure Device Onboarding Discovery Contributor"
         },
         {
+          "name": "12675fd7-7f59-493f-9201-f7944860a2f1",
+          "roleName": "Azure Device Registry Administrator"
+        },
+        {
           "name": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
           "roleName": "Azure Device Registry Contributor"
         },
@@ -509,6 +513,10 @@
         {
           "name": "207bcc4b-86a6-4487-9141-d6c1f4c238aa",
           "roleName": "Azure Edge On-Site Deployment Engineer"
+        },
+        {
+          "name": "78739afa-3ece-4d6b-90ba-762fdccd7438",
+          "roleName": "Azure Edge On-Site Deployment Manager"
         },
         {
           "name": "f526a384-b230-433a-b45c-95f59c4a2dec",
@@ -1635,6 +1643,10 @@
           "roleName": "Dedicated Host Contributor Role"
         },
         {
+          "name": "6fe711ec-654d-4ef7-8e32-eb7de3d94774",
+          "roleName": "Defender AI"
+        },
+        {
           "name": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
           "roleName": "Defender API Security"
         },
@@ -1709,6 +1721,10 @@
         {
           "name": "7d0c0268-1199-449b-a52e-75c20879f46b",
           "roleName": "Defender Settings Contributor"
+        },
+        {
+          "name": "cd50fd1f-0421-46f2-8cce-afc587dbcc77",
+          "roleName": "Defender Storage Malware Data Scanner"
         },
         {
           "name": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
