@@ -479,6 +479,10 @@
           "roleName": "Azure Device Onboarding Discovery Contributor"
         },
         {
+          "name": "12675fd7-7f59-493f-9201-f7944860a2f1",
+          "roleName": "Azure Device Registry Administrator"
+        },
+        {
           "name": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
           "roleName": "Azure Device Registry Contributor"
         },
@@ -509,6 +513,10 @@
         {
           "name": "207bcc4b-86a6-4487-9141-d6c1f4c238aa",
           "roleName": "Azure Edge On-Site Deployment Engineer"
+        },
+        {
+          "name": "78739afa-3ece-4d6b-90ba-762fdccd7438",
+          "roleName": "Azure Edge On-Site Deployment Manager"
         },
         {
           "name": "f526a384-b230-433a-b45c-95f59c4a2dec",
@@ -721,6 +729,14 @@
         {
           "name": "5c2d7e57-b7c2-4d8a-be4f-82afa42c6e95",
           "roleName": "Azure Managed Grafana Workspace Contributor"
+        },
+        {
+          "name": "3015e5ed-6856-4ab3-b2f0-b8492aa30ca6",
+          "roleName": "Azure Managed Redis Contributor"
+        },
+        {
+          "name": "f287ba2f-f923-4464-a5bd-721c3951d32d",
+          "roleName": "Azure Managed Redis Reader"
         },
         {
           "name": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
@@ -1399,6 +1415,14 @@
           "roleName": "Compute Recommendations Role"
         },
         {
+          "name": "f1641a58-a144-402b-baf9-39d1a4c10119",
+          "roleName": "Confidential Ledger Data Contributor"
+        },
+        {
+          "name": "4f1e6fca-3fde-4291-961e-642def6d5e1d",
+          "roleName": "Confidential Ledger Data Reader"
+        },
+        {
           "name": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
           "roleName": "Connected Cluster Managed Identity CheckAccess Reader"
         },
@@ -1635,6 +1659,10 @@
           "roleName": "Dedicated Host Contributor Role"
         },
         {
+          "name": "6fe711ec-654d-4ef7-8e32-eb7de3d94774",
+          "roleName": "Defender AI"
+        },
+        {
           "name": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
           "roleName": "Defender API Security"
         },
@@ -1645,6 +1673,10 @@
         {
           "name": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
           "roleName": "Defender Azure Cosmos DB"
+        },
+        {
+          "name": "eef9d654-743f-4e2c-ad0f-9ed243177663",
+          "roleName": "Defender Azure SQL Databases"
         },
         {
           "name": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
@@ -1709,6 +1741,18 @@
         {
           "name": "7d0c0268-1199-449b-a52e-75c20879f46b",
           "roleName": "Defender Settings Contributor"
+        },
+        {
+          "name": "c6c9b2d8-9a5e-4122-85e1-81612a046ab2",
+          "roleName": "Defender Storage Automated Malware Remediation"
+        },
+        {
+          "name": "cd50fd1f-0421-46f2-8cce-afc587dbcc77",
+          "roleName": "Defender Storage Malware Data Scanner"
+        },
+        {
+          "name": "971cce9f-2680-4357-9678-c947847a9425",
+          "roleName": "Defender Storage Malware Operator"
         },
         {
           "name": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
@@ -1817,6 +1861,10 @@
         {
           "name": "0fa44ee9-7a7d-466b-9bb2-2bf446b1204d",
           "roleName": "Desktop Virtualization Workspace Reader"
+        },
+        {
+          "name": "c24cf47c-5077-412d-a19c-45202126392c",
+          "roleName": "Dev Compute SandboxGroup Data Owner"
         },
         {
           "name": "45d50f46-0b78-4001-a660-4198cbe8cd05",
@@ -2113,6 +2161,10 @@
         {
           "name": "ef3729d8-2861-401e-95ae-c7d4845a6097",
           "roleName": "Genome Admin"
+        },
+        {
+          "name": "0e91b552-ae32-49ea-9898-317af306aa4b",
+          "roleName": "Genome EndUser"
         },
         {
           "name": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
@@ -2551,6 +2603,10 @@
           "roleName": "Microsoft Confluent Contributor role"
         },
         {
+          "name": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
+          "roleName": "Microsoft Discovery Bookshelf Index Data Reader - Preview"
+        },
+        {
           "name": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
           "roleName": "Microsoft Discovery Platform Administrator (Preview)"
         },
@@ -2727,6 +2783,10 @@
           "roleName": "Operator Nexus Owner (Preview)"
         },
         {
+          "name": "63342533-d951-495d-a3c3-a459aa02362b",
+          "roleName": "Oracle Database DbSystems Administrator"
+        },
+        {
           "name": "4caf51ec-f9f5-413f-8a94-b9f5fddba66b",
           "roleName": "Oracle Subscriptions Manager Built-in Role"
         },
@@ -2813,6 +2873,10 @@
         {
           "name": "b12aa53e-6015-4669-85d0-8515ebb3ae7f",
           "roleName": "Private DNS Zone Contributor"
+        },
+        {
+          "name": "d622af9a-030e-4f32-8267-419abfd54702",
+          "roleName": "Pro Active Coding Data User"
         },
         {
           "name": "be1a1ac2-09d3-4261-9e57-a73a6e227f53",
@@ -3053,6 +3117,10 @@
         {
           "name": "82200a5b-e217-47a5-b665-6d8765ee745b",
           "roleName": "Services Hub Operator"
+        },
+        {
+          "name": "4417a88f-3e58-4cf2-a4e9-112cf414254c",
+          "roleName": "Services Hub User"
         },
         {
           "name": "04165923-9d83-45d5-8227-78b77b0a687e",
