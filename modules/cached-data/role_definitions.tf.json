@@ -87,6 +87,10 @@
           "roleName": "AcrQuarantineWriter"
         },
         {
+          "name": "f680209a-a2a2-4e0d-aa81-5d2a65c13604",
+          "roleName": "Advisor Recommendations Contributor"
+        },
+        {
           "name": "6b534d80-e337-47c4-864f-140f5c7f593d",
           "roleName": "Advisor Recommendations Contributor (Assessments and Reviews)"
         },
@@ -121,6 +125,18 @@
         {
           "name": "a2138dac-4907-4679-a376-736901ed8ad8",
           "roleName": "AnyBuild Builder"
+        },
+        {
+          "name": "3e9f3756-203e-4734-a0b8-4b68691ffae3",
+          "roleName": "Anyscale Platform Administrator Role"
+        },
+        {
+          "name": "6d461258-d39c-46cc-8ca1-cab4120979d8",
+          "roleName": "Anyscale Platform Contributor Role"
+        },
+        {
+          "name": "ab24b16e-fd5d-41b5-839e-6c6d2ad32363",
+          "roleName": "Anyscale Platform Reader Role"
         },
         {
           "name": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
@@ -243,10 +259,6 @@
           "roleName": "Aws Connector contributor role"
         },
         {
-          "name": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
-          "roleName": "Azure AI Account Owner"
-        },
-        {
           "name": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
           "roleName": "Azure AI Administrator"
         },
@@ -267,20 +279,24 @@
           "roleName": "Azure AI Inference Deployment Operator"
         },
         {
-          "name": "c883944f-8b7b-4483-af10-35834be79c4a",
-          "roleName": "Azure AI Owner"
-        },
-        {
-          "name": "eadc314b-1a2d-4efa-be10-5d325db5065e",
-          "roleName": "Azure AI Project Manager"
+          "name": "82b2f1a9-9593-4498-a824-c209343a28ec",
+          "roleName": "Azure AI Manager and Namespace RBAC Inference Operator"
         },
         {
           "name": "11102f94-c441-49e6-a78b-ef80e0188abc",
           "roleName": "Azure AI Safety Evaluator"
         },
         {
-          "name": "53ca6127-db72-4b80-b1b0-d745d6d5456d",
-          "roleName": "Azure AI User"
+          "name": "413f2675-4911-4010-be3b-c720b43a3c59",
+          "roleName": "Azure AIManager Contributor"
+        },
+        {
+          "name": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
+          "roleName": "Azure AIManager User"
+        },
+        {
+          "name": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
+          "roleName": "Azure AIManager and namespace RBAC Reader"
         },
         {
           "name": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -479,6 +495,10 @@
           "roleName": "Azure Device Onboarding Discovery Contributor"
         },
         {
+          "name": "12675fd7-7f59-493f-9201-f7944860a2f1",
+          "roleName": "Azure Device Registry Administrator"
+        },
+        {
           "name": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
           "roleName": "Azure Device Registry Contributor"
         },
@@ -509,6 +529,10 @@
         {
           "name": "207bcc4b-86a6-4487-9141-d6c1f4c238aa",
           "roleName": "Azure Edge On-Site Deployment Engineer"
+        },
+        {
+          "name": "78739afa-3ece-4d6b-90ba-762fdccd7438",
+          "roleName": "Azure Edge On-Site Deployment Manager"
         },
         {
           "name": "f526a384-b230-433a-b45c-95f59c4a2dec",
@@ -565,6 +589,10 @@
         {
           "name": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
           "roleName": "Azure IoT Operations Onboarding"
+        },
+        {
+          "name": "852e55ca-96ce-48b0-abca-2cd74d9042ca",
+          "roleName": "Azure Kubernetes Application Network Contributor Role"
         },
         {
           "name": "20cf746c-c765-402a-885e-c389c64478ce",
@@ -715,12 +743,28 @@
           "roleName": "Azure Local Disconnected Operations Role"
         },
         {
+          "name": "1cfa4eac-9a23-481c-a793-bfb6958e836c",
+          "roleName": "Azure Local Migrate Execute Expert"
+        },
+        {
+          "name": "fd8ea4d5-6509-4db0-bada-356ab233b4fb",
+          "roleName": "Azure Local Migrate Owner"
+        },
+        {
           "name": "ea01e6af-a1c1-4350-9563-ad00f8c72ec5",
           "roleName": "Azure Machine Learning Workspace Connection Secrets Reader"
         },
         {
           "name": "5c2d7e57-b7c2-4d8a-be4f-82afa42c6e95",
           "roleName": "Azure Managed Grafana Workspace Contributor"
+        },
+        {
+          "name": "3015e5ed-6856-4ab3-b2f0-b8492aa30ca6",
+          "roleName": "Azure Managed Redis Contributor"
+        },
+        {
+          "name": "f287ba2f-f923-4464-a5bd-721c3951d32d",
+          "roleName": "Azure Managed Redis Reader"
         },
         {
           "name": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
@@ -781,6 +825,18 @@
         {
           "name": "55077723-1b30-4603-a70b-68de134cfa20",
           "roleName": "Azure Native Dynatrace Agent Management Role"
+        },
+        {
+          "name": "f5db7409-a2c6-4d0c-8cf4-412ac01a38df",
+          "roleName": "Azure NetApp Files Administrator"
+        },
+        {
+          "name": "bafa5965-3211-483c-a7b7-027648c789e9",
+          "roleName": "Azure NetApp Files Reader"
+        },
+        {
+          "name": "063e4498-230d-40a9-be9b-037f35f982b5",
+          "roleName": "Azure Notebooks NotebookProxy Contributor"
         },
         {
           "name": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -913,6 +969,18 @@
         {
           "name": "8210e6a3-4e4c-4e1a-bd83-ef8bac788a45",
           "roleName": "Azure Resilience Management Recovery Reader"
+        },
+        {
+          "name": "b66c1f7c-c685-40d6-b8b8-64b8230febf4",
+          "roleName": "Azure Resilience Management Usage Administrator"
+        },
+        {
+          "name": "5ca51376-e049-4302-abcc-64c588049c59",
+          "roleName": "Azure Resilience Management Usage Contributor"
+        },
+        {
+          "name": "b130f7de-5374-4e3d-ada8-bae6e49114b9",
+          "roleName": "Azure Resilience Management Usage Reader"
         },
         {
           "name": "7b1f81f9-4196-4058-8aae-762e593270df",
@@ -1231,6 +1299,18 @@
           "roleName": "Cognitive Search Serverless Data Reader (Deprecated)"
         },
         {
+          "name": "59a2dba3-6303-4fd8-9a2e-8cbb4bdda972",
+          "roleName": "Cognitive Services Content Understanding Contributor"
+        },
+        {
+          "name": "4b42bd01-da42-4c92-9b07-15ea5bd6a602",
+          "roleName": "Cognitive Services Content Understanding Owner"
+        },
+        {
+          "name": "379c52cb-64de-498c-8b5b-c6170d6c49d4",
+          "roleName": "Cognitive Services Content Understanding Reader"
+        },
+        {
           "name": "25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68",
           "roleName": "Cognitive Services Contributor"
         },
@@ -1399,8 +1479,32 @@
           "roleName": "Compute Recommendations Role"
         },
         {
+          "name": "9cf8853f-1e61-4999-915d-3e018bfc8a71",
+          "roleName": "Confidential Ledger Contributor"
+        },
+        {
+          "name": "f1641a58-a144-402b-baf9-39d1a4c10119",
+          "roleName": "Confidential Ledger Data Contributor"
+        },
+        {
+          "name": "4f1e6fca-3fde-4291-961e-642def6d5e1d",
+          "roleName": "Confidential Ledger Data Reader"
+        },
+        {
           "name": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
           "roleName": "Connected Cluster Managed Identity CheckAccess Reader"
+        },
+        {
+          "name": "e7560e73-ee25-4ed7-94f9-666cca24b501",
+          "roleName": "Connector Namespace Contributor"
+        },
+        {
+          "name": "93ef01d8-7600-4956-9f82-b924cb66bfc6",
+          "roleName": "Connector Namespace Developer"
+        },
+        {
+          "name": "5d0402fa-1042-4603-9e01-7fea218a05af",
+          "roleName": "Connector Namespace Reader"
         },
         {
           "name": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",
@@ -1447,6 +1551,14 @@
           "roleName": "Container Apps Operator"
         },
         {
+          "name": "11b23f7a-6229-4518-88db-0576f10dd2a0",
+          "roleName": "Container Apps SandboxGroup Contributor"
+        },
+        {
+          "name": "c24cf47c-5077-412d-a19c-45202126392c",
+          "roleName": "Container Apps SandboxGroup Data Owner"
+        },
+        {
           "name": "f7669afb-68b2-44b4-9c5f-6d2a47fddda0",
           "roleName": "Container Apps SessionPools Contributor"
         },
@@ -1465,6 +1577,14 @@
         {
           "name": "69b07be0-09bf-439a-b9a6-e73de851bd59",
           "roleName": "Container Registry Configuration Reader and Data Access Configuration Reader"
+        },
+        {
+          "name": "281928aa-9782-4d9a-954a-3f34c1ed9f95",
+          "roleName": "Container Registry Connected Registry Administrator"
+        },
+        {
+          "name": "93f83a62-9a8b-4821-9827-5b3ee513aec3",
+          "roleName": "Container Registry Connected Registry Reader"
         },
         {
           "name": "3bc748fc-213d-45c1-8d91-9da5725539b9",
@@ -1509,6 +1629,14 @@
         {
           "name": "ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b",
           "roleName": "ContainerApp Reader"
+        },
+        {
+          "name": "b0ffeab8-d678-4570-b532-ce96bf97b032",
+          "roleName": "Context Cache Administrator"
+        },
+        {
+          "name": "646a9378-973f-42fd-927f-62d1c4381f50",
+          "roleName": "Context Cache Container Contributor"
         },
         {
           "name": "b24988ac-6180-42a0-ab88-20f7382dd24c",
@@ -1635,6 +1763,10 @@
           "roleName": "Dedicated Host Contributor Role"
         },
         {
+          "name": "6fe711ec-654d-4ef7-8e32-eb7de3d94774",
+          "roleName": "Defender AI"
+        },
+        {
           "name": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
           "roleName": "Defender API Security"
         },
@@ -1645,6 +1777,10 @@
         {
           "name": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
           "roleName": "Defender Azure Cosmos DB"
+        },
+        {
+          "name": "eef9d654-743f-4e2c-ad0f-9ed243177663",
+          "roleName": "Defender Azure SQL Databases"
         },
         {
           "name": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
@@ -1709,6 +1845,18 @@
         {
           "name": "7d0c0268-1199-449b-a52e-75c20879f46b",
           "roleName": "Defender Settings Contributor"
+        },
+        {
+          "name": "c6c9b2d8-9a5e-4122-85e1-81612a046ab2",
+          "roleName": "Defender Storage Automated Malware Remediation"
+        },
+        {
+          "name": "cd50fd1f-0421-46f2-8cce-afc587dbcc77",
+          "roleName": "Defender Storage Malware Data Scanner"
+        },
+        {
+          "name": "971cce9f-2680-4357-9678-c947847a9425",
+          "roleName": "Defender Storage Malware Operator"
         },
         {
           "name": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
@@ -1873,6 +2021,10 @@
         {
           "name": "e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f",
           "roleName": "Device Update Reader"
+        },
+        {
+          "name": "64375caa-ac3e-48b3-9492-da4d60aba7bb",
+          "roleName": "Diagnostics Operator"
         },
         {
           "name": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
@@ -2083,6 +2235,30 @@
           "roleName": "Flux Configurations Contributor"
         },
         {
+          "name": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
+          "roleName": "Foundry Account Owner"
+        },
+        {
+          "name": "eed3b665-ab3a-47b6-8f48-c9382fb1dad6",
+          "roleName": "Foundry Agent Consumer"
+        },
+        {
+          "name": "c883944f-8b7b-4483-af10-35834be79c4a",
+          "roleName": "Foundry Owner"
+        },
+        {
+          "name": "eadc314b-1a2d-4efa-be10-5d325db5065e",
+          "roleName": "Foundry Project Manager"
+        },
+        {
+          "name": "142bfaed-a13f-4c2d-bed2-6db62c4a1009",
+          "roleName": "Foundry Project Runtime User"
+        },
+        {
+          "name": "53ca6127-db72-4b80-b1b0-d745d6d5456d",
+          "roleName": "Foundry User"
+        },
+        {
           "name": "1694e55a-2496-4d07-b005-7259aa3fcbe8",
           "roleName": "Garnet Data Contributor"
         },
@@ -2113,6 +2289,14 @@
         {
           "name": "ef3729d8-2861-401e-95ae-c7d4845a6097",
           "roleName": "Genome Admin"
+        },
+        {
+          "name": "0e91b552-ae32-49ea-9898-317af306aa4b",
+          "roleName": "Genome EndUser"
+        },
+        {
+          "name": "27ddfca1-add5-422d-9817-ab0d2d13dc6c",
+          "roleName": "Genome SuperAdmin"
         },
         {
           "name": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
@@ -2241,6 +2425,14 @@
         {
           "name": "68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e",
           "roleName": "Impact Reader"
+        },
+        {
+          "name": "360cab3d-4340-4c96-816d-682fbd52b3e2",
+          "roleName": "Inference Account Operator"
+        },
+        {
+          "name": "76315a85-9e6b-4514-9780-868b1977b64e",
+          "roleName": "Inference Account Owner"
         },
         {
           "name": "2e481b5d-5af3-463b-8b01-f9c948aaf0c5",
@@ -2475,20 +2667,24 @@
           "roleName": "Logic App Operator"
         },
         {
+          "name": "32109304-a0e2-4d64-bd07-b23ac5efbe43",
+          "roleName": "Logic Apps Hybrid Contributor"
+        },
+        {
           "name": "ad710c24-b039-4e85-a019-deb4a06e8570",
-          "roleName": "Logic Apps Standard Contributor (Preview)"
+          "roleName": "Logic Apps Standard Contributor"
         },
         {
           "name": "523776ba-4eb2-4600-a3c8-f2dc93da4bdb",
-          "roleName": "Logic Apps Standard Developer (Preview)"
+          "roleName": "Logic Apps Standard Developer"
         },
         {
           "name": "b70c96e9-66fe-4c09-b6e7-c98e69c98555",
-          "roleName": "Logic Apps Standard Operator (Preview)"
+          "roleName": "Logic Apps Standard Operator"
         },
         {
           "name": "4accf36b-2c05-432f-91c8-5c532dff4c73",
-          "roleName": "Logic Apps Standard Reader (Preview)"
+          "roleName": "Logic Apps Standard Reader"
         },
         {
           "name": "641177b8-a67a-45b9-a033-47bc880bb21e",
@@ -2519,10 +2715,6 @@
           "roleName": "Managed Identity Operator"
         },
         {
-          "name": "852e55ca-96ce-48b0-abca-2cd74d9042ca",
-          "roleName": "Managed Mesh for AKS Contributor Role"
-        },
-        {
           "name": "91c1777a-f3dc-4fae-b103-61d183457e46",
           "roleName": "Managed Services Registration assignment Delete Role"
         },
@@ -2549,6 +2741,10 @@
         {
           "name": "5052f0f9-7e27-4570-bc13-9ee1cf442526",
           "roleName": "Microsoft Confluent Contributor role"
+        },
+        {
+          "name": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
+          "roleName": "Microsoft Discovery Bookshelf Index Data Reader - Preview"
         },
         {
           "name": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
@@ -2727,6 +2923,10 @@
           "roleName": "Operator Nexus Owner (Preview)"
         },
         {
+          "name": "63342533-d951-495d-a3c3-a459aa02362b",
+          "roleName": "Oracle Database DbSystems Administrator"
+        },
+        {
           "name": "4caf51ec-f9f5-413f-8a94-b9f5fddba66b",
           "roleName": "Oracle Subscriptions Manager Built-in Role"
         },
@@ -2815,8 +3015,20 @@
           "roleName": "Private DNS Zone Contributor"
         },
         {
+          "name": "dbc9c667-e97f-4491-aee6-90b9cf960190",
+          "roleName": "Privileged Monitoring Data Reader"
+        },
+        {
+          "name": "d622af9a-030e-4f32-8267-419abfd54702",
+          "roleName": "Pro Active Coding Data User"
+        },
+        {
           "name": "be1a1ac2-09d3-4261-9e57-a73a6e227f53",
           "roleName": "Procurement Contributor"
+        },
+        {
+          "name": "469a0cf0-3794-4627-838e-39d04f27b306",
+          "roleName": "Procurement Contributor with Resource Group Permissions"
         },
         {
           "name": "9ef4ef9c-a049-46b0-82ab-dd8ac094c889",
@@ -2837,6 +3049,22 @@
         {
           "name": "4d8c6f2e-3fd6-4d40-826e-93e3dc4c3fc1",
           "roleName": "ProviderHub Reader"
+        },
+        {
+          "name": "dab09fbf-28d0-4b30-b97e-d2a0f680847a",
+          "roleName": "Provisioned Machine Contributor"
+        },
+        {
+          "name": "cc733c34-b633-4850-8d77-77aa26638325",
+          "roleName": "Provisioned Machine Reader"
+        },
+        {
+          "name": "a2425b74-61f3-4bff-97cb-d0e3bc906777",
+          "roleName": "Pure Storage Cloud VM Volume Group Mount Reader"
+        },
+        {
+          "name": "c9ba051b-aad6-42fd-92dc-e48780abee75",
+          "roleName": "Pure Storage Cloud VM Volume Group Owner"
         },
         {
           "name": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
@@ -3027,6 +3255,10 @@
           "roleName": "Security Reader"
         },
         {
+          "name": "6c74a7c5-4a87-40f9-bb03-61e49aecbc78",
+          "roleName": "Semantic Reranker User"
+        },
+        {
           "name": "db7003cd-07a9-490c-bfa5-23e40314f8d7",
           "roleName": "Service Connector Contributor"
         },
@@ -3053,6 +3285,10 @@
         {
           "name": "82200a5b-e217-47a5-b665-6d8765ee745b",
           "roleName": "Services Hub Operator"
+        },
+        {
+          "name": "4417a88f-3e58-4cf2-a4e9-112cf414254c",
+          "roleName": "Services Hub User"
         },
         {
           "name": "04165923-9d83-45d5-8227-78b77b0a687e",
@@ -3183,6 +3419,10 @@
           "roleName": "Storage DataShare Contributor"
         },
         {
+          "name": "c8a487a2-c85b-4487-83a1-9f04cde10293",
+          "roleName": "Storage File Backup Contributor"
+        },
+        {
           "name": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
           "roleName": "Storage File Data Privileged Contributor"
         },
@@ -3217,6 +3457,10 @@
         {
           "name": "765a04e0-5de8-4bb2-9bf6-b2a30bc03e91",
           "roleName": "Storage File Delegator"
+        },
+        {
+          "name": "e7a9e73d-4397-41f2-a282-af8b65aaa2dc",
+          "roleName": "Storage File Restore Contributor"
         },
         {
           "name": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
