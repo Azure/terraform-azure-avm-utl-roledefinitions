@@ -25,7 +25,7 @@ resource "random_uuid" "role_assignment_name" {}
 module "role_definitions" {
   source = "../../"
 
-  enable_telemetry      = false
+  enable_telemetry      = var.enable_telemetry
   role_definition_scope = azapi_resource.resource_group.id
   use_cached_data       = false
 }
