@@ -4,6 +4,7 @@
 
 This submodule is used to cache data in a local file.
 It is now in a submodule to enable mocking in tests.
+It reads the bundled snapshot without requiring an Azure provider or credentials.
 
 <!-- markdownlint-disable MD033 -->
 ## Requirements
@@ -11,8 +12,6 @@ It is now in a submodule to enable mocking in tests.
 The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.9.0, < 2.0.0)
-
-- <a name="requirement_azapi"></a> [azapi](#requirement\_azapi) (~> 2.12)
 
 ## Resources
 
