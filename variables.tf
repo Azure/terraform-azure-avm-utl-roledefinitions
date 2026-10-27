@@ -1,3 +1,5 @@
+# Retained as a no-op for compatibility while removing modtm telemetry state.
+# tflint-ignore: terraform_unused_declarations
 variable "enable_telemetry" {
   type        = bool
   default     = true
