@@ -1,7 +1,3 @@
-variables {
-  enable_telemetry = false
-}
-
 run "cached" {
   command = apply
 }
